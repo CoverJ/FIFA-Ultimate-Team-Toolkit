@@ -1,5 +1,7 @@
-FIFA Ultimate Team 2015 Toolkit
+FIFA Ultimate Team Toolkit
 ===============================
+
+[![Join the chat at https://gitter.im/trydis/FIFA-Ultimate-Team-Toolkit](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/trydis/FIFA-Ultimate-Team-Toolkit?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## Supported platforms
 - .NET 4.5
@@ -9,39 +11,44 @@ FIFA Ultimate Team 2015 Toolkit
 - Xamarin.iOS
 
 ## Build status
-[![trydis MyGet Build Status](https://www.myget.org/BuildSource/Badge/trydis?identifier=d1708aa8-b649-41d2-ab05-daf80cec40c7)](https://www.myget.org/)
+[![Build status](https://ci.appveyor.com/api/projects/status/4owj0a485hhx1j7c/branch/master?svg=true)](https://ci.appveyor.com/project/trydis/fifa-ultimate-team-toolkit/branch/master)
 
 ## NuGet package
 
-[Install-Package UltimateTeam.2015.Toolkit](https://www.nuget.org/packages/UltimateTeam.2015.Toolkit/)
+[Install-Package UltimateTeam.Toolkit](https://www.nuget.org/packages/UltimateTeam.Toolkit/)
 
 ## Sample usage
 
-[Initialization](https://github.com/trydis/FIFA-Ultimate-Team-2015-Toolkit#initialization)  
-[Login](https://github.com/trydis/FIFA-Ultimate-Team-2015-Toolkit#login)  
-[Player search](https://github.com/trydis/FIFA-Ultimate-Team-2015-Toolkit#player-search)  
-[Place bid](https://github.com/trydis/FIFA-Ultimate-Team-2015-Toolkit#place-bid)  
-[Trade status](https://github.com/trydis/FIFA-Ultimate-Team-2015-Toolkit#trade-status)  
-[Item data](https://github.com/trydis/FIFA-Ultimate-Team-2015-Toolkit#item-data)  
-[Player image](https://github.com/trydis/FIFA-Ultimate-Team-2015-Toolkit#player-image)  
-[Club image](https://github.com/trydis/FIFA-Ultimate-Team-2015-Toolkit#club-image)  
-[Nation image](https://github.com/trydis/FIFA-Ultimate-Team-2015-Toolkit#nation-image)  
-[Credits](https://github.com/trydis/FIFA-Ultimate-Team-2015-Toolkit#credits)  
-[List auction](https://github.com/trydis/FIFA-Ultimate-Team-2015-Toolkit#list-auction)  
-[Get trade pile](https://github.com/trydis/FIFA-Ultimate-Team-2015-Toolkit#get-trade-pile)  
-[Watch list](https://github.com/trydis/FIFA-Ultimate-Team-2015-Toolkit#watch-list)  
-[Purchased items](https://github.com/trydis/FIFA-Ultimate-Team-2015-Toolkit#purchased-items)  
-[Development search](https://github.com/trydis/FIFA-Ultimate-Team-2015-Toolkit#development-search)  
-[Training search](https://github.com/trydis/FIFA-Ultimate-Team-2015-Toolkit#training-search)  
-[Send to trade pile](https://github.com/trydis/FIFA-Ultimate-Team-2015-Toolkit#send-to-trade-pile)  
-[Quick sell](https://github.com/trydis/FIFA-Ultimate-Team-2015-Toolkit#quick-sell)  
-[Remove from watch list](https://github.com/trydis/FIFA-Ultimate-Team-2015-Toolkit#remove-from-watch-list)  
-[Remove from trade pile](https://github.com/trydis/FIFA-Ultimate-Team-2015-Toolkit#remove-from-trade-pile)  
-[Get pile sizes](https://github.com/trydis/FIFA-Ultimate-Team-2015-Toolkit#get-pile-sizes)  
-[ReList Tradepile](https://github.com/trydis/FIFA-Ultimate-Team-2015-Toolkit#relist-tradepile)  
-[Get players from club] (https://github.com/trydis/FIFA-Ultimate-Team-2015-Toolkit#get-players-from-club)  
-[Get squads from club] (https://github.com/trydis/FIFA-Ultimate-Team-2015-Toolkit#get-squads-from-club)  
-[Get squad details] (https://github.com/trydis/FIFA-Ultimate-Team-2015-Toolkit#get-squad-details)  
+[Initialization](https://github.com/trydis/FIFA-Ultimate-Team-Toolkit#initialization)  
+[Login](https://github.com/trydis/FIFA-Ultimate-Team-Toolkit#login)  
+[Player search](https://github.com/trydis/FIFA-Ultimate-Team-Toolkit#player-search)  
+[Place bid](https://github.com/trydis/FIFA-Ultimate-Team-Toolkit#place-bid)  
+[Trade status](https://github.com/trydis/FIFA-Ultimate-Team-Toolkit#trade-status)  
+[Item data](https://github.com/trydis/FIFA-Ultimate-Team-Toolkit#item-data)  
+[Player image](https://github.com/trydis/FIFA-Ultimate-Team-Toolkit#player-image)  
+[Club image](https://github.com/trydis/FIFA-Ultimate-Team-Toolkit#club-image)  
+[Nation image](https://github.com/trydis/FIFA-Ultimate-Team-Toolkit#nation-image)  
+[Credits](https://github.com/trydis/FIFA-Ultimate-Team-Toolkit#credits)  
+[List auction](https://github.com/trydis/FIFA-Ultimate-Team-Toolkit#list-auction)  
+[Get trade pile](https://github.com/trydis/FIFA-Ultimate-Team-Toolkit#get-trade-pile)  
+[Watch list](https://github.com/trydis/FIFA-Ultimate-Team-Toolkit#watch-list)  
+[Purchased items](https://github.com/trydis/FIFA-Ultimate-Team-Toolkit#purchased-items)  
+[Development search](https://github.com/trydis/FIFA-Ultimate-Team-Toolkit#development-search)  
+[Training search](https://github.com/trydis/FIFA-Ultimate-Team-Toolkit#training-search)  
+[Send to trade pile](https://github.com/trydis/FIFA-Ultimate-Team-Toolkit#send-to-trade-pile)  
+[Quick sell](https://github.com/trydis/FIFA-Ultimate-Team-Toolkit#quick-sell)  
+[Remove from watch list](https://github.com/trydis/FIFA-Ultimate-Team-Toolkit#remove-from-watch-list)  
+[Remove from trade pile](https://github.com/trydis/FIFA-Ultimate-Team-Toolkit#remove-from-trade-pile)  
+[Get pile sizes](https://github.com/trydis/FIFA-Ultimate-Team-Toolkit#get-pile-sizes)  
+[Relist Tradepile](https://github.com/trydis/FIFA-Ultimate-Team-Toolkit#relist-tradepile)  
+[Get players from club](https://github.com/trydis/FIFA-Ultimate-Team-Toolkit#get-players-from-club)  
+[Get squads from club](https://github.com/trydis/FIFA-Ultimate-Team-Toolkit#get-squads-from-club)  
+[Get squad details](https://github.com/trydis/FIFA-Ultimate-Team-Toolkit#get-squad-details)  
+[Get definitions](https://github.com/trydis/FIFA-Ultimate-Team-Toolkit#get-definitions)  
+[Get price ranges](https://github.com/trydis/FIFA-Ultimate-Team-Toolkit#get-price-ranges)  
+[Get & Solve Captcha](https://github.com/trydis/FIFA-Ultimate-Team-Toolkit#get-solve-captcha)  
+[Remove sold items from trade pile](https://github.com/trydis/FIFA-Ultimate-Team-Toolkit#remove-sold-items-from-trade-pile)  
+[Open a pack](https://github.com/trydis/FIFA-Ultimate-Team-Toolkit#open-a-pack)  
 
 ### Initialization
 
@@ -52,7 +59,7 @@ var client = new FutClient();
 ### Login
 
 ```csharp
-var loginDetails = new LoginDetails("e-mail", "password", "secret answer", Platform.Ps3 /* or Platform.Xbox360 / Platform.Pc */);
+var loginDetails = new LoginDetails("e-mail", "password", "secret answer", Platform.Ps4 /* or any of the other platforms */, AppVersion.WebApp /* or AppVersion.CompanionApp */);
 ITwoFactorCodeProvider provider = // initialize an implementation of this interface
 var loginResponse = await client.LoginAsync(loginDetails, provider);
 ```
@@ -315,3 +322,76 @@ foreach (var squadPlayer in squadDetailsResponse.players)
 	//Positions seem to be set by index number and depend on formation
 }
 ```
+
+### Get definitions
+
+Gets all player cards (Standard, IF, SIF, TOTW,...) based on their Asset ID
+```csharp
+var playerDefinitions = await client.GetDefinitionsAsync(/* AssetId */);
+
+foreach (ItemData itemData in playerDefinitions.ItemData)
+{
+    var definitionId = itemData.ResourceId;
+    // Contains the Definition ID for i.e. a TOTW card, which you can use to search for this specific card
+}
+```
+
+### Get price ranges
+
+Gets the EA price range - **You can only use this method right after you get tradepile / watchlist!**
+```csharp
+var priceRanges = await client.GetPriceRangesAsync(/* List of ItemIds */);
+
+foreach (PriceRange priceRange in priceRanges)
+{
+    priceRange.MaxPrice = // Maximum BIN
+    priceRange.MinPrice = // Minimum Starting BID
+}
+```
+
+### Get & Solve Captcha
+
+Get Captcha as Base64 encoded image
+```csharp
+CaptchaResponse captchaImg = await futClient.GetCaptchaAsync();
+```
+
+Solve Captcha
+```csharp
+var CaptchaValidate = await futClient.ValidateCaptchaAsync(/* answer */);
+```
+
+### Remove sold items from trade pile
+
+Removes all sold items from the trade pile.
+
+```csharp
+await client.RemoveSoldItemsFromTradePileAsync();
+```
+
+### Open a pack
+
+Get all available Packs
+
+```csharp
+var storeResponse = await futClient.GetPackDetailsAsync();
+```
+
+Buy pack
+
+```csharp
+// Identify the pack id
+uint packId = 0;
+
+foreach (var packDetail in storeResponse.Purchase)
+{
+    if (packDetail.Coins == 7500)
+    {
+        packId = packDetail.Id;
+    }
+}
+
+// Buy Pack
+var buyPackResponse = await futClient.BuyPackAsync(new PackDetails(packId));
+```
+
